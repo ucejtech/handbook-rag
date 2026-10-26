@@ -1,0 +1,13 @@
+[project]
+name = "handbook-ingest"
+version = "0.1.0"
+description = "Offline ingestion: handbook PDF to search index files"
+requires-python = ">=3.11"
+dependencies = [
+    "dotenv>=0.9.9",
+    "openai>=3.37.0",
+    "pgvector>=0.5.1",
+    "psycopg[binary]>=3.3.6",
+    "pymupdf>=2.0",
+    "tiktoken>=0.14.0",
+]

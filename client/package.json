@@ -1,0 +1,32 @@
+{
+  "name": "handbook-qa-client",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "eval:retrieval": "tsx --env-file-if-exists=../.env evals/run-retrieval.ts",
+    "eval:answers": "tsx --env-file-if-exists=../.env evals/run-answers.ts"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^4.0.102",
+    "@ai-sdk/react": "^4.0.157",
+    "ai": "^7.0.153",
+    "next": "^16.4.3",
+    "pg": "^8.23.1",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "@types/pg": "^8.23.1",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3",
+    "vitest": "^5.0.5"
+  }
+}

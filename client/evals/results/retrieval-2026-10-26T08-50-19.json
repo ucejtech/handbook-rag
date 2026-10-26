@@ -1,0 +1,185 @@
+{
+  "ranAt": "2026-10-26T08:50:19.150Z",
+  "summary": [
+    {
+      "mode": "keyword",
+      "hit@5": "88%",
+      "hit@8": "88%",
+      "MRR": "0.76"
+    },
+    {
+      "mode": "vector",
+      "hit@5": "88%",
+      "hit@8": "94%",
+      "MRR": "0.78"
+    },
+    {
+      "mode": "hybrid",
+      "hit@5": "100%",
+      "hit@8": "100%",
+      "MRR": "0.88"
+    }
+  ],
+  "results": [
+    {
+      "id": "min-time-off",
+      "category": "direct",
+      "verified": false,
+      "ranks": {
+        "keyword": 1,
+        "vector": 1,
+        "hybrid": 1
+      }
+    },
+    {
+      "id": "parental-leave-notice",
+      "category": "direct",
+      "verified": false,
+      "ranks": {
+        "keyword": 1,
+        "vector": 1,
+        "hybrid": 1
+      }
+    },
+    {
+      "id": "bereavement-leave",
+      "category": "direct",
+      "verified": false,
+      "ranks": {
+        "keyword": 1,
+        "vector": 1,
+        "hybrid": 1
+      }
+    },
+    {
+      "id": "training-budget",
+      "category": "direct",
+      "verified": false,
+      "ranks": {
+        "keyword": 1,
+        "vector": 1,
+        "hybrid": 1
+      }
+    },
+    {
+      "id": "churn-reasons",
+      "category": "direct",
+      "verified": false,
+      "ranks": {
+        "keyword": 1,
+        "vector": 1,
+        "hybrid": 1
+      }
+    },
+    {
+      "id": "vacation-approval",
+      "category": "paraphrase",
+      "verified": false,
+      "ranks": {
+        "keyword": 5,
+        "vector": 4,
+        "hybrid": 1
+      }
+    },
+    {
+      "id": "stock-options-after-leaving",
+      "category": "paraphrase",
+      "verified": false,
+      "ranks": {
+        "keyword": null,
+        "vector": 1,
+        "hybrid": 3
+      }
+    },
+    {
+      "id": "bookhog",
+      "category": "exact_term",
+      "verified": false,
+      "ranks": {
+        "keyword": 2,
+        "vector": 6,
+        "hybrid": 1
+      }
+    },
+    {
+      "id": "fsa-limit",
+      "category": "exact_term",
+      "verified": false,
+      "ranks": {
+        "keyword": 1,
+        "vector": 2,
+        "hybrid": 1
+      }
+    },
+    {
+      "id": "learning-spend",
+      "category": "multi_section",
+      "verified": false,
+      "ranks": {
+        "keyword": 1,
+        "vector": 1,
+        "hybrid": 1
+      }
+    },
+    {
+      "id": "birthday-anniversary-gifts",
+      "category": "multi_section",
+      "verified": false,
+      "ranks": {
+        "keyword": 2,
+        "vector": 1,
+        "hybrid": 1
+      }
+    },
+    {
+      "id": "learning-benefits-crossref",
+      "category": "cross_reference",
+      "verified": false,
+      "ranks": {
+        "keyword": 1,
+        "vector": null,
+        "hybrid": 2
+      }
+    },
+    {
+      "id": "health-insurer-spain",
+      "category": "behind_link",
+      "verified": false,
+      "ranks": {
+        "keyword": 1,
+        "vector": 1,
+        "hybrid": 1
+      }
+    },
+    {
+      "id": "pension-contributions",
+      "category": "varies",
+      "verified": false,
+      "ranks": {
+        "keyword": 1,
+        "vector": 1,
+        "hybrid": 1
+      }
+    },
+    {
+      "id": "severance",
+      "category": "varies",
+      "verified": false,
+      "ranks": {
+        "keyword": null,
+        "vector": 2,
+        "hybrid": 4
+      }
+    },
+    {
+      "id": "injection-parental-leave",
+      "category": "injection",
+      "verified": false,
+      "ranks": {
+        "keyword": 1,
+        "vector": 1,
+        "hybrid": 1
+      }
+    }
+  ]
+}

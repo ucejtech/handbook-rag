@@ -1,0 +1,22 @@
+# Secrets
+.env
+
+# The handbook and the index built from it (README says where to put the PDF)
+data/
+
+
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node
+node_modules/
+.next/
+next-env.d.ts
+*.tsbuildinfo
+
+# macOS
+.DS_Store

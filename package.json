@@ -1,0 +1,14 @@
+{
+  "name": "handbook-qa",
+  "private": true,
+  "scripts": {
+    "ingest": "uv run --project ingest python ingest/main.py",
+    "dev": "npm --prefix client run dev --",
+    "build": "npm --prefix client run build --",
+    "typecheck": "npm --prefix client run typecheck",
+    "test": "npm --prefix client test --",
+    "test:py": "uv run --project ingest pytest ingest",
+    "eval:retrieval": "npm --prefix client run eval:retrieval --",
+    "eval:answers": "npm --prefix client run eval:answers --"
+  }
+}
